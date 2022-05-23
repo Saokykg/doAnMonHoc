@@ -1,0 +1,81 @@
+.seat:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.seat.d{
+    background-color: red;
+}
+
+.seat.b{
+    background-color: black;
+}
+
+.seat.d:hover, .seat.b:hover{
+    cursor: no-drop;
+}
+
+.seat.disable{
+    background-color: orange;
+    cursor: no-drop;
+}
+
+.seat.active{
+    background-color: rgb(78, 245, 78);
+}
+
+legend {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+    width: auto;
+}
+
+fieldset {
+    background-color: #eeeeee;
+}
+
+.xeinfo{
+    width: 100%;
+}
+
+.myrow:hover{
+    background-color: rgb(174, 252, 255);
+    cursor: pointer;
+}
+
+.seatedit{
+    border: 1px solid black;
+}
+.seatedit:hover{
+    cursor: pointer;
+    background-color: rgba(181, 181, 184, 0.801);
+}
+
+.seatedit.d{
+    background-color: red;
+}
+
+.seatedit.b{
+    background-color: black;
+}
+.seatedit.p{
+    background-color: white;
+}
+
+thead{
+    position: sticky;
+    top: 0;
+    background-color: coral;
+}
+
+div.mycontainer{
+    max-height: 600px;
+    overflow-x: scroll;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
